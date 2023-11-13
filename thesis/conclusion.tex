@@ -1,0 +1,7 @@
+\section{Conclusion}
+
+I present an online \acrshort{rl} agent that can effectively learn from the environment by processing in parallel a sequence of transitions. I add a Transformer layer as a feature layer to a baseline double \acrshort{dqn} implementation and I show that the architecture is able to exploit information from the environment and to converge over time to the optimal policy.
+
+To evaluate the \acrshort{tqn} against the baseline, I follow the approach first proposed by \cite{rliable}. Despite reusing the same set of hyperparameters with a different architecture, the new architecture is able to learn and beat the baseline on 1 out of the 3 environments.
+
+As a first step for extra future work, performing a hyperparameter sweep is necessary. Hyperparameters that are optimal for \acrshort{dqn} may not be optimal for \acrshort{tqn} and vice versa; new ones are also introduced, such as the number of encoder and decoder layers, their size and the number of self-attention heads. It would also be interesting to study how the new architecture can be applied to physics environments that operate over continuous action spaces. In this case, adding a Transformer layer to a Deep Deterministic Policy Gradient (DDPG) may be trivial.

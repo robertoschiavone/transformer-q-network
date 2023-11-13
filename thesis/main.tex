@@ -1,0 +1,73 @@
+\documentclass[runningheads]{llncs}
+
+\usepackage[export]{adjustbox}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[english]{babel}
+\usepackage{bbm}
+\usepackage{bm}
+\usepackage{booktabs}
+
+\usepackage{csquotes}
+
+\usepackage{float}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage[acronym,section=section]{glossaries}
+
+\usepackage{graphicx}
+
+\usepackage[backref=page, colorlinks=true, allcolors=blue]{hyperref}
+
+\usepackage{cleveref}
+
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+\usepackage{microtype}
+\usepackage{subfig}
+\usepackage{tikz}
+
+\usetikzlibrary{external}
+\usetikzlibrary{positioning}
+\tikzexternalize[prefix=assets/,figure name=architecture]
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\setlength{\tabcolsep}{8pt}
+
+\input{glossary}
+
+\begin{document}
+
+\title{Investigating the benefits of adding self-attention \break to a Deep Q-Network}
+
+\author{Roberto Schiavone\inst{1}\orcidID{0009-0001-9167-1496} \\
+\email{r.schiavone@vu.nl}}
+
+\authorrunning{R. Schiavone}
+
+\institute{Vrije Universiteit Amsterdam, De Boelelaan 1105,  1081 HV Amsterdam, The Netherlands}
+
+\maketitle
+
+\input{abstract}
+\input{introduction}
+\input{related-work}
+\input{background}
+\input{method}
+\input{experimental-setup}
+\input{results-and-discussion}
+\input{conclusion}
+\input{acknowledgements}
+
+\bibliographystyle{splncs04}
+\bibliography{bibliography}
+
+\include{appendix}
+
+\printglossary[type=\acronymtype]
+
+\end{document}

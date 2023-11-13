@@ -1,0 +1,12 @@
+{
+  "max_steps": 50000,
+  "learning_rate": 2.3e-3,
+  "buffer_size": 100000,
+  "learning_starts": 1000,
+  "batch_size": 64,
+  "train_frequency": 256,
+  "target_update_interval": 10,
+  "accumulate_grad_batches": 128,
+  "exploration_fraction": 0.16,
+  "epsilon_min": 0.04
+}

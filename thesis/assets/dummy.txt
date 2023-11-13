@@ -1,0 +1,1 @@
+The folder is needed by tikz and it must be not empty.

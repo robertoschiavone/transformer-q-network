@@ -1,0 +1,491 @@
+%%% INTRODUCTION
+% Reinforcement Learning: An Introduction
+@book{rlbook,
+    author    = {Sutton, Richard S. and Barto, Andrew G.},
+    title     = {Reinforcement Learning: An Introduction},
+    year      = {2018},
+    isbn      = {0262039249},
+    publisher = {A Bradford Book},
+    address   = {Cambridge, MA, USA},
+    abstract  = {The significantly expanded and updated new edition of a widely used text on reinforcement learning, one of the most active research areas in artificial intelligence. Reinforcement learning, one of the most active research areas in artificial intelligence, is a computational approach to learning whereby an agent tries to maximize the total amount of reward it receives while interacting with a complex, uncertain environment. In Reinforcement Learning, Richard Sutton and Andrew Barto provide a clear and simple account of the field's key ideas and algorithms. This second edition has been significantly expanded and updated, presenting new topics and updating coverage of other topics. Like the first edition, this second edition focuses on core online learning algorithms, with the more mathematical material set off in shaded boxes. Part I covers as much of reinforcement learning as possible without going beyond the tabular case for which exact solutions can be found. Many algorithms presented in this part are new to the second edition, including UCB, Expected Sarsa, and Double Learning. Part II extends these ideas to function approximation, with new sections on such topics as artificial neural networks and the Fourier basis, and offers expanded treatment of off-policy learning and policy-gradient methods. Part III has new chapters on reinforcement learning's relationships to psychology and neuroscience, as well as an updated case-studies chapter including AlphaGo and AlphaGo Zero, Atari game playing, and IBM Watson's wagering strategy. The final chapter discusses the future societal impacts of reinforcement learning.}
+}
+
+% An Introduction to Deep Reinforcement Learning
+@misc{rlbook2,
+    author    = {François-Lavet, Vincent and Henderson, Peter and Islam, Riashat and Bellemare, Marc G. and Pineau, Joelle},
+    title     = {An Introduction to Deep Reinforcement Learning},
+    publisher = {Now Foundations and Trends},
+    year      = {2018}
+}
+
+% Deep Reinforcement Learning Doesn't Work Yet
+@misc{rldoesntwork,
+    title        = {Deep Reinforcement Learning Doesn't Work Yet},
+    author       = {Irpan, Alex},
+    howpublished = {\url{https://www.alexirpan.com/2018/02/14/rl-hard.html}},
+    year         = {2018}
+}
+
+% Concrete Problems in AI Safety
+@misc{concrete_problems_in_ai_safety,
+    title         = {Concrete Problems in AI Safety},
+    author        = {Dario Amodei and Chris Olah and Jacob Steinhardt and Paul Christiano and John Schulman and Dan Mané},
+    year          = {2016},
+    eprint        = {1606.06565},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.AI}
+}
+
+% Deep Reinforcement Learning That Matters
+@article{drl_that_matters,
+    title        = {Deep Reinforcement Learning That Matters},
+    volume       = {32},
+    url          = {https://ojs.aaai.org/index.php/AAAI/article/view/11694},
+    DOI          = {10.1609/aaai.v32i1.11694},
+    abstractNote = { &lt;p&gt; In recent years, significant progress has been made in solving challenging problems across various domains using deep reinforcement learning (RL). Reproducing existing work and accurately judging the improvements offered by novel methods is vital to sustaining this progress. Unfortunately, reproducing results for state-of-the-art deep RL methods is seldom straightforward. In particular, non-determinism in standard benchmark environments, combined with variance intrinsic to the methods, can make reported results tough to interpret. Without significance metrics and tighter standardization of experimental reporting, it is difficult to determine whether improvements over the prior state-of-the-art are meaningful. In this paper, we investigate challenges posed by reproducibility, proper experimental techniques, and reporting procedures. We illustrate the variability in reported metrics and results when comparing against common baselines and suggest guidelines to make future results in deep RL more reproducible. We aim to spur discussion about how to ensure continued progress in the field by minimizing wasted effort stemming from results that are non-reproducible and easily misinterpreted. &lt;/p&gt; },
+    number       = {1},
+    journal      = {Proceedings of the AAAI Conference on Artificial Intelligence},
+    author       = {Henderson, Peter and Islam, Riashat and Bachman, Philip and Pineau, Joelle and Precup, Doina and Meger, David},
+    year         = {2018},
+    month        = {Apr.}
+}
+
+% The arcade learning environment: An evaluation platform for general agents (Aari)
+@article{atari,
+	doi       = {10.1613/jair.3912},
+	url       = {https://doi.org/10.1613/jair.3912},
+	year      = {2013},
+	month     = {jun},
+	publisher = {{AI} Access Foundation},
+	volume    = {47},
+	pages     = {253--279},
+	author    = {M. G. Bellemare and Y. Naddaf and J. Veness and M. Bowling},
+	title     = {The Arcade Learning Environment: An Evaluation Platform for General Agents},
+	journal   = {Journal of Artificial Intelligence Research}
+}
+
+@article{gpt2,
+   title  = {Language models are unsupervised multitask learners},
+  author  = {Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya and others},
+  journal = {OpenAI blog},
+  volume  = {1},
+  number  = {8},
+  pages   = {9},
+  year    = {2019}
+}
+
+% GPT-3
+@inproceedings{gpt3,
+    author    = {Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and Agarwal, Sandhini and Herbert-Voss, Ariel and Krueger, Gretchen and Henighan, Tom and Child, Rewon and Ramesh, Aditya and Ziegler, Daniel and Wu, Jeffrey and Winter, Clemens and Hesse, Chris and Chen, Mark and Sigler, Eric and Litwin, Mateusz and Gray, Scott and Chess, Benjamin and Clark, Jack and Berner, Christopher and McCandlish, Sam and Radford, Alec and Sutskever, Ilya and Amodei, Dario},
+    booktitle = {Advances in Neural Information Processing Systems},
+    editor    = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+    pages     = {1877--1901},
+    publisher = {Curran Associates, Inc.},
+    title     = {Language Models are Few-Shot Learners},
+    url       = {https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf},
+    volume    = {33},
+    year      = {2020}
+}
+
+% Swin Transformer
+@inproceedings{swin_transformer,
+    author    = {Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and Zhang, Zheng and Lin, Stephen and Guo, Baining},
+    title     = {Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {10012-10022}
+}
+
+%%% RELATED WORK
+@inproceedings{trajectory_transformer,
+    title     = {Offline Reinforcement Learning as One Big Sequence Modeling Problem},
+    author    = {Michael Janner and Qiyang Li and Sergey Levine},
+    booktitle = {Advances in Neural Information Processing Systems},
+    year      = {2021}
+}
+
+% Decision Transformer: Reinforcement Learning via Sequence Modeling
+@inproceedings{decision_transformer,
+    author    = {Chen, Lili and Lu, Kevin and Rajeswaran, Aravind and Lee, Kimin and Grover, Aditya and Laskin, Misha and Abbeel, Pieter and Srinivas, Aravind and Mordatch, Igor},
+    booktitle = {Advances in Neural Information Processing Systems},
+    editor    = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+    pages     = {15084--15097},
+    publisher = {Curran Associates, Inc.},
+    title     = {Decision Transformer: Reinforcement Learning via Sequence Modeling},
+    url       = {https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf},
+    volume    = {34},
+    year      = {2021}
+}
+
+% Q-Transformer
+@inproceedings{q_transformer,
+    title     = {Q-Transformer: Scalable Offline Reinforcement Learning via Autoregressive Q-Functions},
+    author    = {Yevgen Chebotar and Quan Vuong and Alex Irpan and Karol Hausman and Fei Xia and Yao Lu and Aviral Kumar and Tianhe Yu and Alexander Herzog and Karl Pertsch and Keerthana Gopalakrishnan and Julian Ibarz and Ofir Nachum and Sumedh Sontakke and Grecia Salazar and Huong T Tran and Jodilyn Peralta and Clayton Tan and Deeksha Manjunath and Jaspiar Singht and Brianna Zitkovich and Tomas Jackson and Kanishka Rao and Chelsea Finn and Sergey Levine},
+    booktitle = {7th Annual Conference on Robot Learning},
+    year      = {2023}
+}
+
+% R2D2
+@inproceedings{r2d2,
+    title     = {Recurrent Experience Replay in Distributed Reinforcement Learning},
+    author    = {Steven Kapturowski and Georg Ostrovski and Will Dabney and John Quan and Remi Munos},
+    booktitle = {International Conference on Learning Representations},
+    year      = {2019},
+    url       = {https://openreview.net/forum?id=r1lyTjAqYX}
+}
+
+% NeverGiveUp
+@misc{never_give_up,
+    title         = {Never Give Up: Learning Directed Exploration Strategies},
+    author        = {Adrià Puigdomènech Badia and Pablo Sprechmann and Alex Vitvitskyi and Daniel Guo and Bilal Piot and Steven Kapturowski and Olivier Tieleman and Martín Arjovsky and Alexander Pritzel and Andew Bolt and Charles Blundell},
+    year          = {2020},
+    eprint        = {2002.06038},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.LG}
+}
+
+% Agent57
+@inproceedings{agent57,
+    title      = {Agent57: Outperforming the Atari Human Benchmark},
+    author    = {Badia, Adri{\`a} Puigdom{\`e}nech and Piot, Bilal and Kapturowski, Steven and Sprechmann, Pablo and Vitvitskyi, Alex and Guo, Zhaohan Daniel and Blundell, Charles},
+    booktitle = {Proceedings of the 37th International Conference on Machine Learning},
+    pages     = {507--517},
+    year      = {2020},
+    editor    = {III, Hal Daumé and Singh, Aarti},
+    volume    = {119},
+    series    = {Proceedings of Machine Learning Research},
+    month     = {13--18 Jul},
+    publisher = {PMLR},
+    pdf       = {http://proceedings.mlr.press/v119/badia20a/badia20a.pdf},
+    url       = {https://proceedings.mlr.press/v119/badia20a.html},
+    abstract  = {Atari games have been a long-standing benchmark in the reinforcement learning (RL) community for the past decade. This benchmark was proposed to test general competency of RL algorithms. Previous work has achieved good average performance by doing outstandingly well on many games of the set, but very poorly in several of the most challenging games. We propose Agent57, the first deep RL agent that outperforms the standard human benchmark on all 57 Atari games. To achieve this result, we train a neural network which parameterizes a family of policies ranging from very exploratory to purely exploitative. We propose an adaptive mechanism to choose which policy to prioritize throughout the training process. Additionally, we utilize a novel parameterization of the architecture that allows for more consistent and stable learning.}
+}
+
+% MEME
+@misc{meme,
+    title         = {Human-level Atari 200x faster},
+    author        = {Steven Kapturowski and Víctor Campos and Ray Jiang and Nemanja Rakićević and Hado van Hasselt and Charles Blundell and Adrià Puigdomènech Badia},
+    year          = {2022},
+    eprint        = {2209.07550},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.LG}
+}
+
+%%% BACKGROUND
+% Markovian Decision Process
+@article{mdp,
+    added-at  = {2017-04-07T12:00:35.000+0200},
+    author    = {Bellman, Richard},
+    biburl    = {https://www.bibsonomy.org/bibtex/2c04c5f89b4e8445651eded5b56c67342/becker},
+    interhash = {d7aa065c075b248c9980b4c45d635b66},
+    intrahash = {c04c5f89b4e8445651eded5b56c67342},
+    journal   = {Journal of Mathematics and Mechanics},
+    keywords  = {chain citedby:scholar:count:987 citedby:scholar:timestamp:2017-4-7 decision diss inthesis markov process},
+    number    = {5},
+    pages     = {679--684},
+    timestamp = {2017-12-20T14:47:54.000+0100},
+    title     = {A Markovian decision process},
+    url       = {http://www.jstor.org/stable/24900506},
+    volume    = {6},
+    year      = {1957}
+}
+
+% Q-Learning
+@article{qlearning,
+    author   = {Watkins, Christopher J. C. H. and Dayan, Peter},
+    title    = {Q-learning},
+    journal  = {Machine Learning},
+    year     = {1992},
+    month    = {May},
+    day      = {01},
+    volume   = {8},
+    number   = {3},
+    pages    = {279-292},
+    abstract = {Q-learning (Watkins, 1989) is a simple way for agents to learn how to act optimally in controlled Markovian domains. It amounts to an incremental method for dynamic programming which imposes limited computational demands. It works by successively improving its evaluations of the quality of particular actions at particular states.},
+    issn     = {1573-0565},
+    doi      = {10.1007/BF00992698},
+    url      = {https://doi.org/10.1007/BF00992698}
+}
+
+% Thompson sampling
+@article{thompson,
+    title     = {On the likelihood that one unknown probability exceeds another in view of the evidence of two samples},
+    author    = {Thompson, William R},
+    journal   = {Biometrika},
+    volume    = {25},
+    number    = {3-4},
+    pages     = {285--294},
+    year      = {1933},
+    publisher = {Oxford University Press}
+}
+
+% Human-level control through deep reinforcement learning (DQN)
+@article{dqn1,
+    author   = {Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Rusu, Andrei A. and Veness, Joel and Bellemare, Marc G. and Graves, Alex and Riedmiller, Martin and Fidjeland, Andreas K. and Ostrovski, Georg and Petersen, Stig and Beattie, Charles and Sadik, Amir and Antonoglou, Ioannis and King, Helen and Kumaran, Dharshan and Wierstra, Daan and Legg, Shane and Hassabis, Demis},
+    title    = {Human-level control through deep reinforcement learning},
+    journal  = {Nature},
+    year     = {2015},
+    month    = {Feb},
+    day      = {01},
+    volume   = {518},
+    number   = {7540},
+    pages    = {529-533},
+    abstract = {An artificial agent is developed that learns to play a diverse range of classic Atari 2600 computer games directly from sensory experience, achieving a performance comparable to that of an expert human player; this work paves the way to building general-purpose learning algorithms that bridge the divide between perception and action.},
+    issn     = {1476-4687},
+    doi      = {10.1038/nature14236},
+    url      = {https://doi.org/10.1038/nature14236}
+}
+
+% Playing Atari with Deep Reinforcement Learning (DQN)
+@misc{dqn2,
+    title         = {Playing Atari with Deep Reinforcement Learning},
+    author        = {Volodymyr Mnih and Koray Kavukcuoglu and David Silver and Alex Graves and Ioannis Antonoglou and Daan Wierstra and Martin Riedmiller},
+    year          = {2013},
+    eprint        = {1312.5602},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.LG}
+}
+
+% Deep Reinforcement Learning with Double Q-learning (Double DQN)
+@article{double_dqn,
+    title        = {Deep Reinforcement Learning with Double Q-Learning},
+    volume       = {30},
+    url          = {https://ojs.aaai.org/index.php/AAAI/article/view/10295}, DOI={10.1609/aaai.v30i1.10295},
+    abstractNote = { &lt;p&gt; The popular Q-learning algorithm is known to overestimate action values under certain conditions. It was not previously known whether, in practice, such overestimations are common, whether they harm performance, and whether they can generally be prevented. In this paper, we answer all these questions affirmatively. In particular, we first show that the recent DQN algorithm, which combines Q-learning with a deep neural network, suffers from substantial overestimations in some games in the Atari 2600 domain. We then show that the idea behind the Double Q-learning algorithm, which was introduced in a tabular setting, can be generalized to work with large-scale function approximation. We propose a specific adaptation to the DQN algorithm and show that the resulting algorithm not only reduces the observed overestimations, as hypothesized, but that this also leads to much better performance on several games. &lt;/p&gt; },
+    number       = {1},
+    journal      = {Proceedings of the AAAI Conference on Artificial Intelligence},
+    author       = {van Hasselt, Hado and Guez, Arthur and Silver, David},
+    year         = {2016},
+    month        = {Mar.}
+}
+
+% Prioritized Experience Replay
+@misc{prioritized_experience_replay,
+    title         = {Prioritized Experience Replay},
+    author        = {Tom Schaul and John Quan and Ioannis Antonoglou and David Silver},
+    year          = {2016},
+    eprint        = {1511.05952},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.LG}
+}
+
+% Dueling Network Architectures for Deep Reinforcement Learning (Dueling DQN)
+@inproceedings{dueling_dqn,
+    author    = {Wang, Ziyu and Schaul, Tom and Hessel, Matteo and Van Hasselt, Hado and Lanctot, Marc and De Freitas, Nando},
+    title     = {Dueling Network Architectures for Deep Reinforcement Learning},
+    year      = {2016},
+    publisher = {JMLR.org},
+    abstract  = {In recent years there have been many successes of using deep representations in reinforcement learning. Still, many of these applications use conventional architectures, such as convolutional networks, LSTMs, or auto-encoders. In this paper, we present a new neural network architecture for model-free reinforcement learning. Our dueling network represents two separate estimators: one for the state value function and one for the state-dependent action advantage function. The main benefit of this factoring is to generalize learning across actions without imposing any change to the underlying reinforcement learning algorithm. Our results show that this architecture leads to better policy evaluation in the presence of many similar-valued actions. Moreover, the dueling architecture enables our RL agent to outperform the state-of-the-art on the Atari 2600 domain.},
+    booktitle = {Proceedings of the 33rd International Conference on International Conference on Machine Learning - Volume 48},
+    pages     = {1995–2003},
+    numpages  = {9},
+    location  = {New York, NY, USA},
+    series    = {ICML'16}
+}
+
+% Noisy Networks for Exploration (Noisy layer)
+@misc{noisy_net,
+    title         = {Noisy Networks for Exploration},
+    author        = {Meire Fortunato and Mohammad Gheshlaghi Azar and Bilal Piot and Jacob Menick and Ian Osband and Alex Graves and Vlad Mnih and Remi Munos and Demis Hassabis and Olivier Pietquin and Charles Blundell and Shane Legg},
+    year          = {2019},
+    eprint        = {1706.10295},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.LG}
+}
+
+% A Distributional Perspective on Reinforcement Learning (Distributional DQN)
+@inproceedings{distributional_dqn,
+    author    = {Bellemare, Marc G. and Dabney, Will and Munos, R\'{e}mi},
+    title     = {A Distributional Perspective on Reinforcement Learning},
+    year      = {2017},
+    publisher = {JMLR.org},
+    abstract  = {In this paper we argue for the fundamental importance of the value distribution: the distribution of the random return received by a reinforcement learning agent. This is in contrast to the common approach to reinforcement learning which models the expectation of this return, or value. Although there is an established body of literature studying the value distribution, thus far it has always been used for a specific purpose such as implementing risk-aware behaviour. We begin with theoretical results in both the policy evaluation and control settings, exposing a significant distributional instability in the latter. We then use the distributional perspective to design a new algorithm which applies Bellman's equation to the learning of approximate value distributions. We evaluate our algorithm using the suite of games from the Arcade Learning Environment. We obtain both state-of-the-art results and anecdotal evidence demonstrating the importance of the value distribution in approximate reinforcement learning. Finally, we combine theoretical and empirical evidence to highlight the ways in which the value distribution impacts learning in the approximate setting.},
+    booktitle = {Proceedings of the 34th International Conference on Machine Learning - Volume 70},
+    pages     = {449–458},
+    numpages  = {10},
+    location  = {Sydney, NSW, Australia},
+    series    = {ICML'17}
+}
+
+% Learning to predict by the methods of temporal differences (n-step learning)
+@article{n_step_learning,
+    author   = {Sutton, Richard S.},
+    title    = {Learning to predict by the methods of temporal differences},
+    journal  = {Machine Learning},
+    year     = {1988},
+    month    = {Aug},
+    day      = {01},
+    volume   = {3},
+    number   = {1},
+    pages    = {9-44},
+    abstract = {This article introduces a class of incremental learning procedures specialized for prediction-that is, for using past experience with an incompletely known system to predict its future behavior. Whereas conventional prediction-learning methods assign credit by means of the difference between predicted and actual outcomes, the new methods assign credit by means of the difference between temporally successive predictions. Although such temporal-difference methods have been used in Samuel's checker player, Holland's bucket brigade, and the author's Adaptive Heuristic Critic, they have remained poorly understood. Here we prove their convergence and optimality for special cases and relate them to supervised-learning methods. For most real-world prediction problems, temporal-difference methods require less memory and less peak computation than conventional methods and they produce more accurate predictions. We argue that most problems to which supervised learning is currently applied are really prediction problems of the sort to which temporal-difference methods can be applied to advantage.},
+    issn     = {1573-0565},
+    doi      = {10.1007/BF00115009},
+    url      = {https://doi.org/10.1007/BF00115009}
+}
+
+
+
+% Rainbow: Combining Improvements in Deep Reinforcement Learning
+@article{rainbow,
+    title        = {Rainbow: Combining Improvements in Deep Reinforcement Learning},
+    volume       = {32},
+    url          = {https://ojs.aaai.org/index.php/AAAI/article/view/11796},
+    DOI          = {10.1609/aaai.v32i1.11796},
+    abstractNote = { &lt;p&gt; The deep reinforcement learning community has made several independent improvements to the DQN algorithm. However, it is unclear which of these extensions are complementary and can be fruitfully combined. This paper examines six extensions to the DQN algorithm and empirically studies their combination. Our experiments show that the combination provides state-of-the-art performance on the Atari 2600 benchmark, both in terms of data efficiency and final performance. We also provide results from a detailed ablation study that shows the contribution of each component to overall performance. &lt;/p&gt; },
+    number       = {1},
+    journal      = {Proceedings of the AAAI Conference on Artificial Intelligence}, author       = {Hessel, Matteo and Modayil, Joseph and van Hasselt, Hado and Schaul, Tom and Ostrovski, Georg and Dabney, Will and Horgan, Dan and Piot, Bilal and Azar, Mohammad and Silver, David},
+    year         = {2018},
+    month        = {Apr.}
+}
+
+% Sequence to Sequence Learning with Neural Networks (Attention)
+@inproceedings{seq2seq,
+    author    = {Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V},
+    booktitle = {Advances in Neural Information Processing Systems},
+    editor    = {Z. Ghahramani and M. Welling and C. Cortes and N. Lawrence and K.Q. Weinberger},
+    pages     = {},
+    publisher = {Curran Associates, Inc.},
+    title     = {Sequence to Sequence Learning with Neural Networks},
+    url       = {https://proceedings.neurips.cc/paper_files/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf},
+    volume    = {27},
+    year      = {2014}
+}
+
+% Attention Is All You Need (Transformers)
+@inproceedings{attention_is_all_you_need,
+    author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, \L ukasz and Polosukhin, Illia},
+    booktitle = {Advances in Neural Information Processing Systems},
+    editor    = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+    pages     = {},
+    publisher = {Curran Associates, Inc.},
+    title     = {Attention is All you Need},
+    url       = {https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf},
+    volume    = {30},
+    year      = {2017}
+}
+
+%%% METHOD
+% PyTorch
+@inproceedings{pytorch,
+    author    = {Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and Desmaison, Alban and Kopf, Andreas and Yang, Edward and DeVito, Zachary and Raison, Martin and Tejani, Alykhan and Chilamkurthy, Sasank and Steiner, Benoit and Fang, Lu and Bai, Junjie and Chintala, Soumith},
+    booktitle = {Advances in Neural Information Processing Systems 32},
+    editor    = {Wallach, H. and Larochelle, H. and Beygelzimer, A. and d'Alché-Buc, F. and Fox, E. and Garnett, R.},
+    pages     = {8024--8035},
+    publisher = {Curran Associates, Inc.},
+    title     = {{PyTorch: An Imperative Style, High-Performance Deep Learning Library}},
+    url       = {http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf},
+    year      = {2019}
+}
+
+% CleanRL
+@article{cleanrl,
+    author  = {Shengyi Huang and Rousslan Fernand Julien Dossa and Chang Ye and Jeff Braga and Dipam Chakraborty and Kinal Mehta and João G.M. Araújo},
+    title   = {CleanRL: High-quality Single-file Implementations of Deep Reinforcement Learning Algorithms},
+    journal = {Journal of Machine Learning Research},
+    year    = {2022},
+    volume  = {23},
+    number  = {274},
+    pages   = {1--18},
+    url     = {http://jmlr.org/papers/v23/21-1342.html}
+}
+
+% Stable-Baselines 3
+@article{sb3,
+    author  = {Antonin Raffin and Ashley Hill and Adam Gleave and Anssi Kanervisto and Maximilian Ernestus and Noah Dormann},
+    title   = {Stable-Baselines3: Reliable Reinforcement Learning Implementations},
+    journal = {Journal of Machine Learning Research},
+    year    = {2021},
+    volume  = {22},
+    number  = {268},
+    pages   = {1-8},
+    url     = {http://jmlr.org/papers/v22/20-1364.html}
+}
+
+% Rainbow is All You Need
+@misc{rainbow_is_all_you_need,
+    author       = {Curt Park},
+    title        = {Rainbow is All You Need},
+    year         = {2019},
+    publisher    = {GitHub},
+    journal      = {GitHub repository},
+    howpublished = {\url{https://github.com/Curt-Park/rainbow-is-all-you-need}}
+}
+
+% Adam
+@misc{adam,
+    title         = {Adam: A Method for Stochastic Optimization},
+    author        = {Diederik P. Kingma and Jimmy Ba},
+    year          = {2017},
+    eprint        = {1412.6980},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.LG}
+}
+
+%%% EXPERIMENTAL SETUP
+% OpenAI Gym
+@misc{openai_gym,
+    title         = {OpenAI Gym},
+    author        = {Greg Brockman and Vicki Cheung and Ludwig Pettersson and Jonas Schneider and John Schulman and Jie Tang and Wojciech Zaremba},
+    year          = {2016},
+    eprint        = {1606.01540},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.LG}
+}
+
+% Farama Gymnasium
+@misc{farama_gymnasium,
+    title     = {Gymnasium},
+    url       = {https://zenodo.org/record/8127025},
+    abstract  = {An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)},
+    urldate   = {2023-07-08},
+    publisher = {Zenodo},
+    author    = {Towers, Mark and Terry, Jordan K. and Kwiatkowski, Ariel and Balis, John U. and Cola, Gianluca de and Deleu, Tristan and Goulão, Manuel and Kallinteris, Andreas and KG, Arjun and Krimmel, Markus and Perez-Vicente, Rodrigo and Pierré, Andrea and Schulhoff, Sander and Tai, Jun Jet and Shen, Andrew Tan Jin and Younis, Omar G.},
+    month     = {mar},
+    year      = {2023},
+    doi       = {10.5281/zenodo.8127026}
+}
+
+@misc{rl_zoo3,
+    author       = {Raffin, Antonin},
+    title        = {RL Baselines3 Zoo},
+    year         = {2020},
+    publisher    = {GitHub},
+    journal      = {GitHub repository},
+    howpublished = {\url{https://github.com/DLR-RM/rl-baselines3-zoo}}
+}
+
+% Deep Reinforcement Learning at the Edge of the Statistical Precipice (rliable)
+@article{rliable,
+    title   = {Deep reinforcement learning at the edge of the statistical precipice},
+    author  = {Agarwal, Rishabh and Schwarzer, Max and Castro, Pablo Samuel and Courville, Aaron C and Bellemare, Marc},
+    journal = {Advances in Neural Information Processing Systems},
+    volume  = {34},
+    year    = {2021}
+}
+
+% Generalization in Reinforcement Learning: Successful Examples Using Sparse Coarse Coding (Acrobot)
+@inproceedings{acrobot,
+    author    = {Sutton, Richard S},
+    booktitle = {Advances in Neural Information Processing Systems},
+    editor    = {D. Touretzky and M.C. Mozer and M. Hasselmo},
+    pages     = {},
+    publisher = {MIT Press},
+    title     = {Generalization in Reinforcement Learning: Successful Examples Using Sparse Coarse Coding},
+    url       = {https://proceedings.neurips.cc/paper_files/paper/1995/file/8f1d43620bc6bb580df6e80b0dc05c48-Paper.pdf},
+    volume    = {8},
+    year      = {1995}
+}
+
+% Neuronlike adaptive elements that can solve difficult learning control problems (CartPole)
+@article{cartpole,
+    author  = {Barto, Andrew G. and Sutton, Richard S. and Anderson, Charles W.},
+    journal = {IEEE Transactions on Systems, Man, and Cybernetics},
+    title   = {Neuronlike adaptive elements that can solve difficult learning control problems},
+    year    = {1983},
+    volume  = {SMC-13},
+    number  = {5},
+    pages   = {834-846},
+    doi     = {10.1109/TSMC.1983.6313077}
+}

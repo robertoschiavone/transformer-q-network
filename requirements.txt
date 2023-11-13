@@ -1,0 +1,11 @@
+gymnasium[box2d,other]==0.29.1
+matplotlib==3.8.1
+numpy==1.26.1
+packaging==23.2
+prettytable==3.9.0
+rich==13.6.0
+rliable==1.0.7
+scipy~=1.11.3
+tensorboard==2.15.1
+torch==2.1.0
+tqdm==4.66.1
